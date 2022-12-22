@@ -1,0 +1,34 @@
+.top{
+    position: sticky;
+    top: 0px;
+
+    z-index : 2;
+}
+
+.middle{
+    margin-top: 150px;
+
+    display:flex;
+   
+    text-align: center;
+}
+
+.map-button{
+    position:fixed;
+    z-index : 1;
+    top: 85%;
+    
+    left: 40%;
+    
+}
+
+.bottom{
+    position: sticky;
+    bottom: -20px;
+    transform: translateY(0%);
+  transition: transform 0.5s;
+}
+
+.cover {
+    transform: translateY(-100%);
+  }

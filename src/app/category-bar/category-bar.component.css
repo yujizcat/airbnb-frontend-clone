@@ -1,0 +1,31 @@
+.category-bar{
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    height: 80px;
+    margin-top: 80px;
+    justify-content: left;
+    width: 100%;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    overflow-x:auto;
+
+ 
+  
+}
+
+.category{
+    width: 100px !important;
+    flex-shrink: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+
+.category :hover{
+    color: red;
+}

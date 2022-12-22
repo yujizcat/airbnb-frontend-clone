@@ -1,0 +1,29 @@
+.map2{
+    
+    position: fixed;
+    width: 100px;
+    height: 40px;
+    border: none;
+    font-size: large;
+    border-radius: 40px;
+    background-color: black;
+    color: rgb(206, 206, 206);
+    z-index : 1;
+    
+}
+
+.map{
+    z-index : 1;
+    top: 85%;
+    left: 40%;
+    position: fixed;
+    width: 100px;
+    height: 40px;
+    border: none;
+    font-size: large;
+    border-radius: 40px;
+    background-color: black;
+    color: rgb(206, 206, 206);
+    
+    
+}

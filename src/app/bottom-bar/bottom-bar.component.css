@@ -1,0 +1,34 @@
+.container{
+    position: sticky;
+    margin-top: 775px;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(243, 244, 244);
+  
+}
+
+.icons{
+    display: flex;
+    justify-content:space-around;
+    padding:10px;
+    
+}
+
+.icons :hover{
+    color: rgb(226, 16, 16);
+}
+
+.icon{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-weight: 400;
+   
+}
+
+
+
+.icon-font{
+    font-size: 15px;
+    
+}

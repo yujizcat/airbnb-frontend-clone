@@ -1,0 +1,19 @@
+<div class="category-bar">
+
+    <div class="category" *ngFor="let c of categories">
+     
+            <mat-icon class="icon">{{c[1]}}</mat-icon>
+            <h6 class="font">{{c[0]}}</h6>
+
+    </div>
+
+
+</div>
+
+<div class="category" *ngFor="let c of categories">
+
+
+    <mat-tab label="{{c[0]}}">
+        <mat-icon class="icon-image">{{c[1]}}</mat-icon>
+    </mat-tab>
+</div>
